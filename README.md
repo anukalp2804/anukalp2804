@@ -28,7 +28,35 @@
 - 🌿 **Tree Planted by Tree-Nation:** [My Tree 🌳](https://tree-nation.com/profile/anukalp-pandey)
 
 
+---
 
+### 🏅 **GitHub Achievements**
+
+<div align="center">
+
+<a href="https://github.com/anukalppandey">
+  <img src="https://github-profile-trophy.vercel.app/?username=anukalppandey&theme=onedark&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+</a>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anukalppandey&theme=tokyonight" alt="GitHub Profile Summary"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=anukalppandey&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anukalppandey&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+
+<br/><br/>
+
+### 🦈 Featured Badges
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="80" alt="Pull Shark"/> 
+<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="80" alt="YOLO Badge"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="80" alt="Arctic Code Vault Contributor"/> 
+<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="80" alt="Quickdraw Badge"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="80" alt="Starstruck Badge"/> 
+
+</div>
+ 
 
 ### 🧰 Tech Stack
 
