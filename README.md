@@ -102,7 +102,7 @@
 
 ✨ *“Code, Contribute, Connect — and Grow Every Day!”* ✨  
 
-<img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="200" alt="Laptop GIF"/>
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTl4NzNkcDBmMzl5cjYzcHhrbmZiMjhrcWF5Zjh1N3JmcXdxYWp1dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CuuSHzuc0O166MRfjt/giphy.gif" width="200" alt="Laptop GIF"/>
 
 </div>
 
