@@ -15,8 +15,8 @@
 - 💻 Skilled in **Java, MERN Stack, and Python**.  
 - 🌱 Currently improving my skills in **DSA and backend development**.  
 - 🌍 Contributed to **Hacktoberfest 2025** — completed 6 PRs and earned **Super Contributor Badge**.  
-- 🌳 Supported [Tree Nation](https://tree-nation.com) by planting trees through open-source participation.  
-- 🏅 Earned cool [Holopin](https://holopin.io/@anukalppandey) badges for open source and tech contributions.  
+- 🌳 Supported [Tree Nation](https://tree-nation.com/profile/anukalp-pandey) by planting trees through open-source participation.  
+- 🏅 Earned cool [Holopin](https://www.holopin.io/@anukalp2804#badges) badges for open source and tech contributions.  
 
 ---
 
