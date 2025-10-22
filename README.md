@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <h1 align="center">Hey there, I'm Anukalp Pandey 👋</h1>
 <h3 align="center">Aspiring Developer | Open Source Enthusiast | Hacktoberfest 2025 Super Contributor 🌿</h3>
 
