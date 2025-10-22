@@ -23,7 +23,7 @@
 
 ### 🧰 Tech Stack
 
-<p align="center">
+<p align="left">
   <!-- Languages -->
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -32,7 +32,7 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-<p align="center">
+<p align="left">
   <!-- Frameworks & Libraries -->
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node-dot-js&logoColor=white" alt="Node.js" />
@@ -40,7 +40,7 @@
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 </p>
 
-<p align="center">
+<p align="left">
   <!-- Tools & Platforms -->
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -48,7 +48,7 @@
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
 </p>
 
-<p align="center">
+<p align="left">
   <!-- Interests -->
   <img src="https://img.shields.io/badge/Open%20Source-3DA639?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="Open Source" />
   <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=orange" alt="Machine Learning" />
@@ -56,23 +56,15 @@
 </p>
 
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anukalp-pandey&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anukalp-pandey&theme=tokyonight" alt="GitHub Streak" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anukalp-pandey&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
 
 ---
 
 ### 🌐 Connect with Me
 <p align="center">
-  <a href="https://www.linkedin.com/in/anukalp-pandey" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:anukalppandey@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://holopin.io/@anukalp"><img src="https://img.shields.io/badge/Holopin-Badges-6f42c1?style=for-the-badge&logo=holopin&logoColor=white"/></a>
-  <a href="https://tree-nation.com/forest/anukalp-pandey"><img src="https://img.shields.io/badge/Tree%20Nation-🌳-green?style=for-the-badge"/></a>
+  <a href="https://www.linkedin.com/in/anukalp-pandey" target="_blank"><img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge](https://linkedin.com/in/anukalp-pandey-55941b281)&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:pandeyanukalp6@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://holopin.io/@anukalp"><img src="https://www.holopin.io/@anukalp2804#badges&logo=holopin&logoColor=white"/></a>
+  <a href="https://tree-nation.com/forest/anukalp-pandey"><img src="[https://img.shields.io/badge/Tree%20Nation](https://tree-nation.com/profile/anukalp-pandey)-🌳-green?style=for-the-badge"/></a>
 </p>
 
 
