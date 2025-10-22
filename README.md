@@ -53,6 +53,13 @@
   <a href="https://tree-nation.com/forest/anukalp-pandey"><img src="https://img.shields.io/badge/Tree%20Nation-🌳-green?style=for-the-badge"/></a>
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anukalp-pandey&theme=darkhub&row=1&column=6" />
+</p>
+
+![Profile Views](https://komarev.com/ghpvc/?username=anukalp-pandey&color=blue)
+
+
 ---
 
 ⭐️ *“Code. Contribute. Collaborate. Grow.”*  
