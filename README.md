@@ -59,13 +59,34 @@
 
 ---
 
-### 🌐 Connect with Me
+### 🤝 Connect with Me
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/anukalp-pandey" target="_blank"><img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge](https://linkedin.com/in/anukalp-pandey-55941b281)&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:pandeyanukalp6@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://holopin.io/@anukalp"><img src="https://www.holopin.io/@anukalp2804#badges&logo=holopin&logoColor=white"/></a>
-  <a href="https://tree-nation.com/forest/anukalp-pandey"><img src="[https://img.shields.io/badge/Tree%20Nation](https://tree-nation.com/profile/anukalp-pandey)-🌳-green?style=for-the-badge"/></a>
+  <a href="https://linkedin.com/in/anukalp-pandey-55941b281" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  
+  <a href="mailto:pandeyanukalp6@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  
+  <a href="https://www.holopin.io/@anukalp2804#badges" target="_blank">
+    <img src="https://img.shields.io/badge/Holopin-Badges-6f42c1?style=for-the-badge&logo=holopin&logoColor=white" alt="Holopin Badges" />
+  </a>
+  
+  <a href="https://tree-nation.com/profile/anukalp-pandey" target="_blank">
+    <img src="https://img.shields.io/badge/Tree%20Nation-🌳-3DA639?style=for-the-badge" alt="Tree-Nation" />
+  </a>
+  
+  <a href="https://github.com/anukalp2804" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  
+  <a href="https://anukalp-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
+
 
 
 ---
