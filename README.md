@@ -34,13 +34,9 @@
 
 <div align="center">
 
-<a href="https://github.com/anukalppandey">
-  <img src="https://github-profile-trophy.vercel.app/?username=anukalppandey&theme=onedark&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-</a>
+
 
 <br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anukalppandey&theme=tokyonight" alt="GitHub Profile Summary"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=anukalppandey&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats"/>
 
