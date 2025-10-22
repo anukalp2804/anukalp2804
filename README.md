@@ -2,6 +2,10 @@
 <h3 align="center">Aspiring Developer | Open Source Enthusiast | Hacktoberfest 2025 Super Contributor 🌿</h3>
 
 ---
+## Hey there! 👋
+I'm Anukalp — passionate about Web Development, Java, and Open Source.
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWpudW12M2w2aDIwZjBieXplMG1jeDdyaTkza2sxaTVteWtlN20xcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CuuSHzuc0O166MRfjt/giphy.gif" width="40" alt="Waving hand" />
 
 ### 🌟 About Me
 - 🎓 Graduated in **Computer Science (B.Tech)** from **SVCET**  
