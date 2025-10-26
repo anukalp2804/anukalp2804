@@ -1,7 +1,7 @@
 <div align="center">
 
 # 👋 Hey there, I'm <span style="color:#00ADB5;">Anukalp Pandey</span>  
-🧑‍💻CODE Enthusiast | Java Enthusiast
+🧑‍💻CODE Enthusiast | Java Learner
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" height="250" alt="Coding GIF" style="border-radius: 20px;"/>
 
@@ -12,7 +12,7 @@
 ### 💡 **About Me**
 
 - 🎯 Passionate about **building real-world projects** and contributing to **open source**.  
-- 💻 Skilled in **Java, MERN Stack, and Python**.  
+- 💻 Skilled in **Java, and Python**.  
 - 🌱 Currently improving my skills in **DSA and backend development**.  
 - 🌍 Contributed to **Hacktoberfest 2025** — completed 6 PRs and earned **Super Contributor Badge**.  
 - 🌳 Supported [Tree Nation](https://tree-nation.com/profile/anukalp-pandey) by planting trees through open-source participation.  
@@ -67,9 +67,9 @@
 
 <p align="left">
   <!-- Frameworks & Libraries -->
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+ <!--  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />-->
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node-dot-js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+ <!-- <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" /> -->
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 </p>
 
@@ -78,13 +78,13 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
+  <!-- <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
 </p>
 
 <p align="left">
   <!-- Interests -->
   <img src="https://img.shields.io/badge/Open%20Source-3DA639?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="Open Source" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=orange" alt="Machine Learning" />
+ <!--  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=orange" alt="Machine Learning" /> -->
   <img src="https://img.shields.io/badge/Web%20Development-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Web Development" />
 </p>
 
