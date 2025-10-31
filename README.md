@@ -27,7 +27,7 @@
 - 🪶 **Holopin Badge Board:** [View All Badges](https://www.holopin.io/@anukalp2804#badges)
 - 🌿 **Tree Planted by Tree-Nation:** [My Tree 🌳](https://tree-nation.com/profile/anukalp-pandey)
 
--->
+
 ---
 
 ### 🏅 **GitHub Achievements**
@@ -42,7 +42,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anukalppandey&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 
-<br/><br/>
+<br/><br/>-->
 
 ### 🦈 Featured Badges
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="80" alt="Pull Shark"/> 
