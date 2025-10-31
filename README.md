@@ -19,7 +19,7 @@
 - 🏅 Earned cool [Holopin](https://www.holopin.io/@anukalp2804#badges) badges for open source and tech contributions.  
 
 ---
-
+<!--
 
 ### 🏅 Achievements
 - 🥇 **Hacktoberfest 2025 – Super Contributor**
@@ -27,7 +27,7 @@
 - 🪶 **Holopin Badge Board:** [View All Badges](https://www.holopin.io/@anukalp2804#badges)
 - 🌿 **Tree Planted by Tree-Nation:** [My Tree 🌳](https://tree-nation.com/profile/anukalp-pandey)
 
-
+-->
 ---
 
 ### 🏅 **GitHub Achievements**
