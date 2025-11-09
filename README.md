@@ -34,7 +34,7 @@
 
 <div align="center">
 
-
+<!--
 
 <br/><br/>
 
@@ -42,7 +42,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anukalppandey&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 
-<br/><br/>
+<br/><br/> -->
 
 ### 🦈 Featured Badges
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="80" alt="Pull Shark"/>
