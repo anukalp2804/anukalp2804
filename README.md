@@ -30,12 +30,12 @@
 
 ---
 
-### 🏅 **GitHub Achievements**
 
-<div align="center">
+
+<div align="left">
 
 <!--
-
+### 🏅 **GitHub Achievements**
 <br/><br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=anukalppandey&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats"/>
