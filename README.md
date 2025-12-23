@@ -133,7 +133,3 @@
 </div>
 
 ---
-
-### 🏷️ **Hashtags to use when sharing on LinkedIn**
-> #OpenSource #Hacktoberfest2025 #WebDevelopment #Java #MERNStack #GitHub #Developer #TechCommunity #CodingLife #AnukalpPandey
-
