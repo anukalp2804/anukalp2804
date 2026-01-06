@@ -42,21 +42,86 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anukalppandey&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 
-<br/><br/> -->
+<br/><br/> 
+
+### 🏆 GitHub Achievements (All)
+
+<div align="center">
+<!--
+<!-- Pull Shark 
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="90" alt="Pull Shark"/>
+<p><b>Pull Shark</b></p>
+
+<!-- Quickdraw
+<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="90" alt="Quickdraw"/>
+<p><b>Quickdraw</b></p>
+
+<!-- Starstruck 
+<img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="90" alt="Starstruck"/>
+<p><b>Starstruck</b></p>
+
+<!-- Galaxy Brain --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="90" alt="Galaxy Brain"/>
+<p><b>Galaxy Brain</b></p>
+
+<!-- YOLO -
+<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="90" alt="YOLO"/>
+<p><b>YOLO</b></p>
+
+<!-- Public Sponsor --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/public-sponsor-default.png" width="90" alt="Public Sponsor"/>
+<p><b>Public Sponsor</b></p>
+
+<!-- Heart On Your Sleeve --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/heart-on-your-sleeve-default.png" width="90" alt="Heart on your Sleeve"/>
+<p><b>Heart on Your Sleeve</b></p>
+
+<!-- Pair Extraordinaire --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="90" alt="Pair Extraordinaire"/>
+<p><b>Pair Extraordinaire</b></p>
+
+<!-- Open Sourcerer --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/open-sourcerer-default.png" width="90" alt="Open Sourcerer"/>
+<p><b>Open Sourcerer</b></p>
+
+<!-- Arctic Code Vault --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="90" alt="Arctic Code Vault"/>
+<p><b>Arctic Code Vault Contributor</b></p>
+
+<!-- Mars 2020 Contributor --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/mars-2020-contributor-default.png" width="90" alt="Mars 2020 Contributor"/>
+<p><b>Mars 2020 Contributor</b></p>
+
+<!-- README Badge --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/README-default.png" width="90" alt="README Badge"/>
+<p><b>GitHub README Badge</b></p>
+
+<!-- Maintainer --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/maintainer-default.png" width="90" alt="Maintainer"/>
+<p><b>Maintainer</b></p>
+
+<!-- Developer Program Member --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/developer-program-member-default.png" width="90" alt="Developer Program Member"/>
+<p><b>Developer Program Member</b></p>
+
+</div>
+
+-->
 
 ### 🦈 Featured Badges
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="80" alt="Pull Shark"/>
 <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="80" alt="Quickdraw Badge"/>
 <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="80" alt="YOLO Badge"/>
-<img src="https://raw.githubusercontent.com/anukalp2804/custom-badges/main/peas-achievement.png" width="80" alt="YOLO Badge"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="80" alt="YOLO Badge"/>
 
 
 <!--
 <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="80" alt="Arctic Code Vault Contributor"/> 
 
 <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="80" alt="Starstruck Badge"/> 
--->
+
 </div>
+-->
  
 
 ### 🧰 Tech Stack
