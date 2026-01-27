@@ -80,9 +80,6 @@
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="90" alt="Pair Extraordinaire"/>
 <p><b>Pair Extraordinaire</b></p>
 
-<!-- Open Sourcerer --
-<img src="https://github.githubassets.com/images/modules/profile/achievements/open-sourcerer-default.png" width="90" alt="Open Sourcerer"/>
-<p><b>Open Sourcerer</b></p>
 
 <!-- Arctic Code Vault --
 <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="90" alt="Arctic Code Vault"/>
@@ -107,6 +104,11 @@
 </div>
 
 -->
+
+Open Sourcerer --
+<img src="https://github.githubassets.com/images/modules/profile/achievements/open-sourcerer-default.png" width="90" alt="Open Sourcerer"/>
+<p><b>Open Sourcerer</b></p>
+
 
 ### 🦈 Featured Badges
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="80" alt="Pair Extraordinaire"/>
