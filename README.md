@@ -40,8 +40,8 @@
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=anukalppandey&theme=onight&hide_border=true" alt="GitHub Streak Stats"/><
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anukalppandey&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anukalppandey&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages"/>
+later change the false into true
 <br/><br/> 
 
 ### 🏆 GitHub Achievements (All)
