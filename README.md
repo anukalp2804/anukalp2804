@@ -38,7 +38,7 @@
 ### 🏅 **GitHub Achievement**
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anukalppandey&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats"/><
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=anukalppandey&theme=onight&hide_border=true" alt="GitHub Streak Stats"/><
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anukalppandey&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 
