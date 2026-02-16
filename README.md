@@ -200,7 +200,7 @@ later change the false into true
 
 ✨ *“Code, Contribute, Connect — and Grow Every Day!”* ✨  
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anukalp2804&theme=radical)](https://git.io/streak-stats)
+<!-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anukalp2804&theme=radical)](https://git.io/streak-stats) -->
 
 
 </div>
