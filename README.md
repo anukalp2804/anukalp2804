@@ -199,7 +199,7 @@ later change the false into true
 <div align="center">
 
 ✨ *“Code, Contribute, Connect — and Grow Every Day!”* ✨  
-
+![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=anukalp2804&layout=donut)
 <!-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anukalp2804&theme=radical)](https://git.io/streak-stats) -->
 
 
