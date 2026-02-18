@@ -109,23 +109,6 @@ later change the false into true
 
 -->
 
-
-
-### 🦈 Featured Badges
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="80" alt="Pair Extraordinaire"/>
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="80" alt="Pull Shark"/>
-<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="80" alt="YOLO Badge"/>
-<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="80" alt="Quickdraw Badge"/>
-
-
-
-<!--
-<img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="80" alt="Arctic Code Vault Contributor"/> 
-
-<img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="80" alt="Starstruck Badge"/> 
-
-</div>
--->
  
 
 ### 🧰 Tech Stack
@@ -200,7 +183,6 @@ later change the false into true
 
 ✨ *“Code, Contribute, Connect — and Grow Every Day!”* ✨  
 ![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=anukalp2804&layout=donut)
-<!-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anukalp2804&theme=radical)](https://git.io/streak-stats) -->
 
 
 </div>
