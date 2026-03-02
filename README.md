@@ -187,3 +187,7 @@ later change the false into true
 </div>
 
 ---
+- [x] been self-reviewed.
+- [x] been built locally with `mvn spotless:apply`.
+- [x] been built locally with `mvn clean package -DskipTests`.
+- [x] been built locally with `mvn -pl iotdb-core -am test -DskipTests`
