@@ -182,7 +182,32 @@ later change the false into true
 <div align="center">
 
 ✨ *“Code, Contribute, Connect — and Grow Every Day!”* ✨  
+## Description
 
+This PR fixes line length violations reported by the static analysis tool.
+
+Changes:
+- Updated multiple files in the example module.
+- Adjusted lines to comply with the project's maximum line length rule.
+
+Files modified:
+- `example/jdbc/src/main/java/org/apache/iotdb/TableModelJDBCExample.java`.
+- `example/rest-java-example/src/main/java/org/apache/iotdb/HttpExample.java`.
+- `example/rest-java-example/src/main/java/org/apache/iotdb/HttpsExample.java`.
+
+These changes ensure the code follows the project's formatting guidelines.
+
+This change addresses a Sonar-reported Line Length external_checkstyle:sizes.LineLengthCheck
+- https://sonarcloud.io/project/issues?open=AZUYD9W4mFkwrRLYG_iL&id=apache_iotdb
+- https://sonarcloud.io/project/issues?open=AYMlMcinDl3pdh6pMbzZ&id=apache_iotdb
+- https://sonarcloud.io/project/issues?open=AYMlMcWBDl3pdh6pMbzD&id=apache_iotdb
+
+This PR has:
+
+- [x] been self-reviewed.
+- [x] been built locally with `mvn spotless:apply`.
+- [x] been built locally with `mvn clean package -DskipTests`.
+- [x] been built locally with `mvn -pl iotdb-core -am test -DskipTests`.
 
 </div>
 
