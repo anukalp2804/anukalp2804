@@ -175,13 +175,18 @@ later change the false into true
   </a>
 </p>
 
----
+-->
 
 
 
 <div align="center">
 
 ✨ *“Code, Contribute, Connect — and Grow Every Day!”* ✨  
+
+
+</div>
+
+---
 ## Description
 
 This PR fixes line length violations reported by the static analysis tool.
@@ -208,7 +213,3 @@ This PR has:
 - [x] been built locally with `mvn spotless:apply`.
 - [x] been built locally with `mvn clean package -DskipTests`.
 - [x] been built locally with `mvn -pl iotdb-core -am test -DskipTests`.
-
-</div>
-
----
