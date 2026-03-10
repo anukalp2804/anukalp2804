@@ -12,7 +12,7 @@
 ### 💡 **About Me**
 
 - 🎯 Passionate about **building real-world projects** and contributing to **open source**.  
-- 💻 Skilled in **Java, and Python**.  
+- 💻 Skilled in **Java, SQL and Python**.  
 - 🌱 Currently improving my skills in **DSA and backend development**.  
 - 🌍 Contributed to **Hacktoberfest 2025** — completed 6 PRs and earned **Super Contributor Badge**.  
 - 🌳 Supported [Tree Nation](https://tree-nation.com/profile/anukalp-pandey) by planting trees through open-source participation.  
