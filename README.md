@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hey there, I'm <span style="color:#00ADB5;">Anukalp Pandey</span>  
+# 👋 Hii there, I'm <span style="color:#00ADB5;">Anukalp Pandey</span>  
 🧑‍💻CODE Enthusiast | Java & Python Learner | Open Source Contributer
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" height="250" alt="Coding GIF" style="border-radius: 20px;"/>
