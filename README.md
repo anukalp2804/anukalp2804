@@ -14,7 +14,7 @@
   <br />
   
   <!-- Trigger Link disguised as a button badge -->
-  <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/issues/new?template=bot-chat.md">
+  <a href="https://github.com/anukalp2804/anukalp2804/issues/new?template=bot-chat.md">
     <img src="https://img.shields.io/badge/💬%20Talk%20To%20My%20Bot-Click%20Here-blue?style=for-the-badge" alt="Chat Button" />
   </a>
 </div>
