@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile Console</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Space Grotesk', sans-serif; background-color: #030712; }
+        .gradient-bg { background: linear-gradient(135deg, #8B5CF6 0%, #06B6D4 100%); }
+        .gradient-text { background: linear-gradient(135deg, #8B5CF6 0%, #06B6D4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-panel { background: #090d16; border: 1px solid rgba(255, 255, 255, 0.05); }
+        .chat-scroll::-webkit-scrollbar { width: 4px; }
+        .chat-scroll::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.08); border-radius: 99px; }
+    </style>
+</head>
+<body class="h-screen w-screen overflow-hidden flex items-center justify-center p-4 bg-[#030712]">
+
+    <!-- Dynamic Ambient Backdrop Light Ring -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[500px] h-[500px] bg-purple-600/5 blur-[120px] pointer-events-none rounded-full"></div>
+
+    <!-- MAIN UNIBODY CONSOLE WIDGET CONTAINER -->
+    <div class="glass-panel w-full max-w-xl rounded-2xl shadow-2xl shadow-black/90 flex flex-col h-[85vh] max-h-[540px] relative z-20">
+        
+        <!-- Header status panel bar -->
+        <div class="p-4 border-b border-white/5 flex items-center justify-between bg-[#0b0f19]/80 rounded-t-2xl">
+            <div class="flex items-center gap-2.5">
+                <div class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
+                <div>
+                    <h3 class="text-xs font-bold text-white tracking-wide">NovaChat Monitor</h3>
+                    <p class="text-[10px] text-gray-500">System validation clusters active</p>
+                </div>
+            </div>
+            <span class="text-[9px] bg-white/5 px-2.5 py-1 rounded-md text-gray-400 font-mono">NODE // #PROFILE</span>
+        </div>
+
+        <!-- Chat messages view container stream -->
+        <div id="chat-stream" class="flex-1 p-4 space-y-4 overflow-y-auto chat-scroll flex flex-col justify-start">
+            <div class="flex justify-start items-start gap-2.5">
+                <div class="w-5 h-5 rounded-md gradient-bg flex items-center justify-center text-[9px] text-white font-bold flex-shrink-0 mt-0.5">N</div>
+                <div class="bg-white/[0.02] border border-white/5 text-gray-300 px-3.5 py-2.5 rounded-2xl rounded-tl-none max-w-[88%] text-xs leading-relaxed">
+                    Hello! Secure link established. Select an operational profile query option below to load my data logs into the console transmission field:
+                </div>
+            </div>
+        </div>
+
+        <!-- System interactive prompt pill selections -->
+        <div id="suggestions-panel" class="px-4 pb-3 pt-2 flex flex-col gap-2 max-h-[140px] overflow-y-auto chat-scroll border-t border-white/[0.02] bg-[#070b14]/50">
+            <button onclick="stageOption(1)" class="w-full text-left text-[11px] bg-white/5 hover:bg-violet-500/10 border border-white/5 hover:border-violet-500/30 text-gray-400 hover:text-white rounded-xl px-3.5 py-2.5 transition-all duration-200">
+                👤 Query 01: Tell me about yourself (About Me)
+            </button>
+            <button onclick="stageOption(2)" class="w-full text-left text-[11px] bg-white/5 hover:bg-cyan-500/10 border border-white/5 hover:border-cyan-500/30 text-gray-400 hover:text-white rounded-xl px-3.5 py-2.5 transition-all duration-200">
+                🏆 Query 02: What are your key milestones? (Achievements)
+            </button>
+            <button onclick="stageOption(3)" class="w-full text-left text-[11px] bg-white/5 hover:bg-emerald-500/10 border border-white/5 hover:border-emerald-500/30 text-gray-400 hover:text-white rounded-xl px-3.5 py-2.5 transition-all duration-200">
+                🔑 Query 03: What tools do you use? (Technology Stack)
+            </button>
+        </div>
+
+        <!-- Bottom bar container input execution console row -->
+        <div class="p-3 bg-[#060a12]/90 border-t border-white/5 flex items-center gap-3 rounded-b-2xl">
+            <div class="w-10 h-10 rounded-xl bg-black/40 border border-white/10 flex-shrink-0 overflow-hidden flex items-center justify-center p-0.5 shadow-inner">
+                <!-- Points directly to your avatar asset -->
+                <img src="avatar.png" alt="Bot Icon" class="w-full h-full object-cover rounded-lg" onerror="this.src='https://img.icons8.com/isometric/50/space-astronaut.png'" />
+            </div>
+            <div class="flex-1">
+                <input type="text" id="user-input-box" placeholder="Select an option card button above..." readonly class="w-full bg-[#0a0f1b] border border-white/5 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-gray-400 focus:outline-none placeholder-gray-600 font-medium cursor-default">
+            </div>
+            <button id="send-action-btn" onclick="executeManualSend()" class="bg-gray-800 text-gray-500 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold tracking-wide transition-all duration-300 cursor-not-allowed" disabled>
+                Send
+            </button>
+        </div>
+
+    </div>
+
+    <!-- TRANSMISSION PROCESSING CONTROLS ENGINE -->
+    <script>
+        const responseData = {
+            1: { question: "👤 Query 01: Tell me about yourself (About Me)", answer: "I am a passionate software engineer focused on building clean, modular software solutions that solve real-world efficiency challenges. I thrive on translating complex technical backend logic into responsive, high-performance interfaces." },
+            2: { question: "🏆 Query 02: What are your key milestones? (Achievements)", answer: "<b>System Milestone Logs:</b><br>• Designed and deployed a custom automation pipeline reducing execution lag by 40%.<br>• Contributed to core open-source web assets utilized globally by backend automation engineers.<br>• Successfully built and managed scalable database layouts hosting production data routines smoothly." },
+            3: { question: "🔑 Query 03: What tools do you use? (Technology Stack)", answer: "<b>System Environment Arrays:</b><br><br><span class='text-cyan-400 font-medium'>Frontend:</span> React, TypeScript, TailwindCSS<br><span class='text-violet-400 font-medium'>Backend:</span> Node.js, Express, Python, REST APIs<br><span class='text-emerald-400 font-medium'>Databases:</span> PostgreSQL, MongoDB, Redis<br><span class='text-amber-400 font-medium'>Cloud/DevOps:</span> Docker, AWS, Git, GitHub Actions" }
+        };
+
+        let currentActiveId = null;
+        const inputBox = document.getElementById('user-input-box');
+        const sendBtn = document.getElementById('send-action-btn');
+        const chatStream = document.getElementById('chat-stream');
+
+        function stageOption(id) {
+            if (!responseData[id]) return;
+            currentActiveId = id;
+            inputBox.value = responseData[id].question;
+            sendBtn.disabled = false;
+            sendBtn.className = "gradient-bg text-white px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold tracking-wide shadow-md hover:opacity-90 transform active:scale-95 transition-all duration-200 cursor-pointer";
+            inputBox.focus();
+        }
+
+        function executeManualSend() {
+            const currentQueryText = inputBox.value.trim();
+            if (!currentQueryText) return;
+
+            const userBubble = document.createElement('div');
+            userBubble.className = 'flex justify-end';
+            userBubble.innerHTML = `<div class="bg-[#151f32] border border-white/5 text-gray-200 px-4 py-2 rounded-2xl rounded-tr-none text-xs shadow-md">${currentQueryText}</div>`;
+            chatStream.appendChild(userBubble);
+
+            inputBox.value = "";
+            sendBtn.disabled = true;
+            sendBtn.className = "bg-gray-800 text-gray-500 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold tracking-wide cursor-not-allowed";
+            forceScroll();
+
+            // Typing state loader
+            const typingBubble = document.createElement('div');
+            typingBubble.className = 'flex justify-start items-start gap-2.5';
+            typingBubble.innerHTML = `
+                <div class="w-5 h-5 rounded-md gradient-bg flex items-center justify-center text-[9px] text-white font-bold flex-shrink-0 mt-0.5">N</div>
+                <div class="bg-white/[0.01] border border-white/5 text-gray-500 px-3.5 py-2 rounded-2xl rounded-tl-none text-xs italic">Searching profile logs...</div>
+            `;
+            setTimeout(() => { chatStream.appendChild(typingBubble); forceScroll(); }, 250);
+
+            // Print Answer payload
+            setTimeout(() => {
+                typingBubble.remove();
+                const botBubble = document.createElement('div');
+                botBubble.className = 'flex justify-start items-start gap-2.5';
+                botBubble.innerHTML = `
+                    <div class="w-5 h-5 rounded-md gradient-bg flex items-center justify-center text-[9px] text-white font-bold flex-shrink-0 mt-0.5 shadow-md">N</div>
+                    <div class="bg-[#111022] border border-violet-500/15 text-gray-200 px-3.5 py-2.5 rounded-2xl rounded-tl-none max-w-[85%] text-xs leading-relaxed shadow-lg">${responseData[currentActiveId].answer}</div>
+                `;
+                chatStream.appendChild(botBubble);
+                currentActiveId = null;
+                forceScroll();
+            }, 1200);
+        }
+
+        function forceScroll() { chatStream.scrollTop = chatStream.scrollHeight; }
+    </script>
+</body>
+</html>
