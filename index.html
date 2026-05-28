@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile Console</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { 
+            font-family: 'Space Grotesk', sans-serif; 
+            background-color: #030712;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #8B5CF6 0%, #06B6D4 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #8B5CF6 0%, #06B6D4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .glass-panel {
+            background: rgba(9, 13, 22, 0.85);
+            backdrop-filter: blur(24px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .chat-scroll::-webkit-scrollbar {
+            width: 4px;
+        }
+        .chat-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .chat-scroll::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 99px;
+        }
+    </style>
+</head>
+<body class="h-screen w-screen overflow-hidden flex items-center justify-center p-3 relative bg-[#030712]">
+
+    <!-- Upper Left Title matching image_ba222a.png -->
+    <div class="absolute top-4 left-4 z-30">
+        <h1 class="text-lg md:text-xl font-bold tracking-tight text-white flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full gradient-bg"></span>
+            Profile<span class="gradient-text">Agent</span>
+        </h1>
+    </div>
+
+    <!-- MAIN CHAT APP BOX -->
+    <div class="glass-panel w-full max-w-xl rounded-2xl shadow-2xl shadow-black/90 flex flex-col h-[85vh] max-h-[520px] relative z-20">
+        
+        <!-- Top Window Header -->
+        <div class="p-3.5 border-b border-white/5 flex items-center justify-between bg-[#0b0f19]/80 rounded-t-2xl">
+            <div class="flex items-center gap-2">
+                <div class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
+                <div>
+                    <h3 class="text-xs font-bold text-white tracking-wide">Developer Profile Console</h3>
+                    <p class="text-[10px] text-gray-500">System knowledgebase operations active</p>
+                </div>
+            </div>
+            <span class="text-[9px] bg-white/5 px-2.5 py-1 rounded-md text-gray-400 font-mono">NODE // #GITHUB</span>
+        </div>
+
+        <!-- Scrollable Chat Stream -->
+        <div id="chat-stream" class="flex-1 p-4 space-y-4 overflow-y-auto chat-scroll flex flex-col justify-start">
+            <div class="flex justify-start items-start gap-2.5">
+                <div class="w-5 h-5 rounded-md gradient-bg flex items-center justify-center text-[9px] text-white font-bold flex-shrink-0 mt-0.5">P</div>
+                <div class="bg-white/[0.02] border border-white/5 text-gray-300 px-3.5 py-2.5 rounded-2xl rounded-tl-none max-w-[88%] text-xs leading-relaxed">
+                    Hello! Secure connection initialized. Select any option button below to stage a database query regarding my bio records, tech stack, or milestones:
+                </div>
+            </div>
+        </div>
+
+        <!-- Dynamic Personal Info Suggestion Panel -->
+        <div id="suggestions-panel" class="px-4 pb-3 pt-2 flex flex-col gap-2 max-h-[150px] overflow-y-auto chat-scroll border-t border-white/[0.02] bg-[#070b14]/50">
+            <button onclick="stageOption(1)" class="w-full text-left text-[11px] bg-white/5 hover:bg-violet-500/10 border border-white/5 hover:border-violet-500/30 text-gray-300 hover:text-white rounded-xl px-3.5 py-2.5 transition-all duration-200">
+                👤 Query 01: Tell me about yourself (About Me)
+            </button>
+            <button onclick="stageOption(2)" class="w-full text-left text-[11px] bg-white/5 hover:bg-cyan-500/10 border border-white/5 hover:border-cyan-500/30 text-gray-300 hover:text-white rounded-xl px-3.5 py-2.5 transition-all duration-200">
+                🏆 Query 02: What are your key milestones? (Achievements)
+            </button>
+            <button onclick="stageOption(3)" class="w-full text-left text-[11px] bg-white/5 hover:bg-emerald-500/10 border border-white/5 hover:border-emerald-500/30 text-gray-300 hover:text-white rounded-xl px-3.5 py-2.5 transition-all duration-200">
+                🛠️ Query 03: What tools do you use? (Technology Stack)
+            </button>
+            <button onclick="stageOption(4)" class="w-full text-left text-[11px] bg-white/5 hover:bg-amber-500/10 border border-white/5 hover:border-amber-500/30 text-gray-300 hover:text-white rounded-xl px-3.5 py-2.5 transition-all duration-200">
+                📬 Query 04: How do we establish a connection? (Contact)
+            </button>
+        </div>
+
+        <!-- Lower Console Command Input Row -->
+        <div class="p-3 bg-[#060a12]/90 border-t border-white/5 flex items-center gap-2 rounded-b-2xl">
+            <div class="w-10 h-10 rounded-xl bg-black/40 border border-white/10 flex-shrink-0 overflow-hidden flex items-center justify-center p-0.5 shadow-md">
+                <img src="avatar.png" alt="Bot Icon" class="w-full h-full object-cover rounded-lg" onerror="this.src='https://img.icons8.com/isometric/50/space-astronaut.png'"/>
+            </div>
+            <div class="flex-1">
+                <input type="text" id="user-input-box" placeholder="Select an option above or type custom query..." class="w-full bg-[#0a0f1b] border border-white/5 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-gray-200 focus:outline-none focus:border-violet-500/40 placeholder-gray-600 font-medium transition duration-200">
+            </div>
+            <button id="send-action-btn" onclick="executeManualSend()" class="bg-gray-300 dark:bg-gray-800 text-gray-500 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold tracking-wide transition-all duration-300 cursor-not-allowed" disabled>
+                Send
+            </button>
+        </div>
+    </div>
+
+    <!-- CONSOLE DATA FLOW ENGINE CONTROLS -->
+    <script>
+        // Custom Portfolio Knowledgebase Dataset
+        const responseData = {
+            1: {
+                question: "👤 Query 01: Tell me about yourself (About Me)",
+                answer: "I am a passionate software engineer focused on building clean, modular software solutions that solve real-world efficiency challenges. I thrive on translating complex technical backend logic into responsive, high-performance interfaces."
+            },
+            2: {
+                question: "🏆 Query 02: What are your key milestones? (Achievements)",
+                answer: "<b>System Milestone Logs:</b><br>• Designed and deployed a custom automation pipeline reducing operational execution lag by 40%.<br>• Contributed to core open-source web assets utilized globally by backend automation engineers.<br>• Successfully built and managed scalable database layouts hosting production data routines smoothly."
+            },
+            3: {
+                question: "🛠️ Query 03: What tools do you use? (Technology Stack)",
+                answer: "<b>System Environment Arrays:</b><br><br><span class='text-cyan-400 font-medium'>Frontend:</span> React, TypeScript, TailwindCSS<br><span class='text-violet-400 font-medium'>Backend:</span> Node.js, Express, Python, REST APIs<br><span class='text-emerald-400 font-medium'>Databases:</span> PostgreSQL, MongoDB, Redis<br><span class='text-amber-400 font-medium'>Cloud/DevOps:</span> Docker, AWS, Git, GitHub Actions"
+            },
+            4: {
+                question: "📬 Query 04: How do we establish a connection? (Contact)",
+                answer: "Let's open a direct communication routing pipeline! Reach out to my live endpoints below:<br><br>📧 <b>Email:</b> <a href='mailto:your.email@example.com' class='text-cyan-400 underline'>your.email@example.com</a><br>💼 <b>LinkedIn:</b> <a href='https://linkedin.com/in/yourusername' target='_blank' class='text-violet-400 underline'>linkedin.com/in/yourusername</a><br>🌐 <b>Portfolio:</b> <a href='https://yourportfolio.com' target='_blank' class='text-emerald-400 underline'>yourportfolio.com</a>"
+            }
+        };
+
+        const fallbackResponses = {
+            greetings: ["hi", "hello", "hey", "sup", "greetings"],
+            greetingReply: "Hello there! 👋 I am an automated profile agent. Feel free to use the quick option buttons to learn about my background, or type keywords like <b>'stack'</b>, <b>'contact'</b>, or <b>'about'</b>.",
+            defaultReply: "Query completed, but zero records found. Try selecting one of the macro buttons above or type clean keywords like <b>'about'</b>, <b>'stack'</b>, or <b>'milestones'</b>."
+        };
+
+        let currentActiveId = null;
+        const inputBox = document.getElementById('user-input-box');
+        const sendBtn = document.getElementById('send-action-btn');
+        const chatStream = document.getElementById('chat-stream');
+
+        inputBox.addEventListener('input', evaluateButtonState);
+
+        function stageOption(id) {
+            if (!responseData[id]) return;
+            currentActiveId = id;
+            inputBox.value = responseData[id].question;
+            evaluateButtonState();
+            inputBox.focus();
+        }
+
+        function evaluateButtonState() {
+            if (inputBox.value.trim().length > 0) {
+                sendBtn.disabled = false;
+                sendBtn.className = "gradient-bg text-white px-5 py-2.5 rounded-xl text-xs font-semibold tracking-wide shadow-md hover:opacity-90 transition-all duration-200 cursor-pointer";
+            } else {
+                sendBtn.disabled = true;
+                sendBtn.className = "bg-gray-300 dark:bg-gray-800 text-gray-500 px-5 py-2.5 rounded-xl text-xs font-semibold tracking-wide cursor-not-allowed";
+            }
+        }
+
+        function executeManualSend() {
+            const currentQueryText = inputBox.value.trim();
+            if (!currentQueryText) return;
+
+            const userBubble = document.createElement('div');
+            userBubble.className = 'flex justify-end opacity-0 transition-all duration-300 transform translate-y-2';
+            userBubble.innerHTML = `<div class="bg-[#151f32] border border-white/5 text-gray-200 px-4 py-2 rounded-2xl rounded-tr-none max-w-[85%] text-xs shadow-md">${currentQueryText}</div>`;
+            chatStream.appendChild(userBubble);
+            userBubble.offsetHeight;
+            userBubble.classList.remove('opacity-0', 'translate-y-2');
+
+            inputBox.value = "";
+            evaluateButtonState();
+            forceStreamScroll();
+
+            const typingBubble = document.createElement('div');
+            typingBubble.className = 'flex justify-start items-start gap-2.5';
+            typingBubble.innerHTML = `
+                <div class="w-5 h-5 rounded-md gradient-bg flex items-center justify-center text-[9px] text-white font-bold flex-shrink-0 mt-0.5">P</div>
+                <div class="bg-white/[0.01] border border-white/5 text-gray-500 px-3.5 py-2 rounded-2xl rounded-tl-none text-xs italic">Searching diagnostic profile nodes...</div>
+            `;
+            
+            setTimeout(() => {
+                chatStream.appendChild(typingBubble);
+                forceStreamScroll();
+            }, 300);
+
+            setTimeout(() => {
+                typingBubble.remove();
+                let finalAnswer = fallbackResponses.defaultReply;
+                const cleanInputLower = currentQueryText.toLowerCase();
+
+                if (currentActiveId && responseData[currentActiveId].question === currentQueryText) {
+                    finalAnswer = responseData[currentActiveId].answer;
+                } else if (fallbackResponses.greetings.some(greet => cleanInputLower.includes(greet))) {
+                    finalAnswer = fallbackResponses.greetingReply;
+                } else if (cleanInputLower.includes("about") || cleanInputLower.includes("yourself")) {
+                    finalAnswer = responseData[1].answer;
+                } else if (cleanInputLower.includes("milestone") || cleanInputLower.includes("achievement")) {
+                    finalAnswer = responseData[2].answer;
+                } else if (cleanInputLower.includes("stack") || cleanInputLower.includes("tool")) {
+                    finalAnswer = responseData[3].answer;
+                } else if (cleanInputLower.includes("contact") || cleanInputLower.includes("connect")) {
+                    finalAnswer = responseData[4].answer;
+                }
+
+                const botBubble = document.createElement('div');
+                botBubble.className = 'flex justify-start items-start gap-2.5 opacity-0 transition-all duration-300 transform translate-y-2';
+                botBubble.innerHTML = `
+                    <div class="w-5 h-5 rounded-md gradient-bg flex items-center justify-center text-[9px] text-white font-bold flex-shrink-0 mt-0.5 shadow-md">P</div>
+                    <div class="bg-[#111022] border border-violet-500/15 text-gray-200 px-3.5 py-2.5 rounded-2xl rounded-tl-none max-w-[85%] text-xs leading-relaxed shadow-lg">${finalAnswer}</div>
+                `;
+                chatStream.appendChild(botBubble);
+                botBubble.offsetHeight;
+                botBubble.classList.remove('opacity-0', 'translate-y-2');
+                
+                currentActiveId = null;
+                forceStreamScroll();
+            }, 1200);
+        }
+
+        inputBox.addEventListener("keypress", (e) => {
+            if (e.key === "Enter" && !sendBtn.disabled) {
+                e.preventDefault();
+                executeManualSend();
+            }
+        });
+
+        function forceStreamScroll() {
+            chatStream.scrollTop = chatStream.scrollHeight;
+        }
+    </script>
+</body>
+</html>
